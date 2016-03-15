@@ -100,7 +100,6 @@ namespace RockpaperscissorsGameConsole
         /// <returns>게임 결과</returns>
         Results Play(int UserChoice)
         {
-            Status Status;                                    // 가위바위보 상태
             Results Results = Results.Draw;                   // 게임 결과
             int ComputerChoice;                               // 컴퓨터의 선택값
             Status ExchangedUserChoice = Status.Scissors;     // 사용자 선택의 변환값
